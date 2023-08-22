@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://lolstatic-a.akamaihd.net/rso-authenticator-ui/0.49.28/assets/arcane_dsktp_centerAlignedCrd_BG.jpg");
+    background-size: 100%;
+    background-position: 0;
+    background-attachment: fixed;   
+}
+
+header{
+    height: 100%;
+    width: 100%;
+}
+
+.divTop{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    height: 90px;
+    width: 100vh;
+    padding-left: 65px;
+}
+header img{
+    max-width:110px;
+    width: auto;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    padding: 32px;
+    background-color: white;
+    align-items: center;
+
+}
+.titulo{
+    font-size: 25.63px;
+    margin-top: 60px;
+    font-family: "FF Mark W05", sans-serif;
+    font-style: normal;
+}
+
+.usuario, .senha{
+    border: none;
+    height: 60px;
+    width: 100%;
+    font-size: 18px;
+    padding: 0px 10px 0px 10px;
+    font-family: "FF Mark W05", sans-serif;
+    background-color: rgba(186, 186, 186, 0.1);
+}
+
+.senha{
+    margin-top: 20px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 90%;
+    height: 50px;
+    padding: 0px 10px 0px 10px;    
+
+    margin-top: 20px;
+    
+}
+
+.a{
+    width: 70px;
+    height: 32px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+}
+.a img{
+    max-height: 18px;
+    height: auto;
+    width: auto;
+}
+
+.b1{
+    background: rgb(24, 119, 242);
+
+}
+
+.b2{
+    background-color: white;
+}
+
+.b3{
+    background: rgb(0, 0, 0);
+
+}
+
+.b4{
+    background: rgb(16, 124, 16);
+}
